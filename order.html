@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Register</h2>
+        <hr>
+        Feel free to contact us anytime for other additional information!
+    </div>
+    <br><br>
+    <div class="types">
+        <div>Types of Designs:
+            <Select class="select">
+                <option> </option>
+                <option>Decoration</option>
+                <option>Remodeling</option>
+                <optgroup label="Outdoor Decoration">
+                    <option>Pool Decoration</option>
+                    <option>Garden Decoration</option>
+                    <option>Rooftop Decoration</option>
+                    <option>Balcony Decoration</option>
+                </optgroup>
+                <optgroup label="Indoor Decoration">
+                    <option>Bedroom Decoration</option>
+                    <option>Dining Room Decoration</option>
+                    <option>Living Room Decoration</option>
+                    <option>Kids Room Decoration</option>
+                    <option>Teen Room Decoration</option>
+                    <option>Bathroom Decoration</option>
+                </optgroup>
+            </Select><br><br><br>
+            <label>Personal Information<hr></label><br>
+        </div>
+    </div>
+    <div class="form">
+        <form><br><br>
+            Name<subscript>*</subscript><br>
+            <input 
+                type="text" 
+                name="first_name" 
+                placeholder="First Name"
+                required
+                class="text"
+            />  
+    
+            <br>
+            <br>
+            Mobile number<subscript>*</subscript><br>
+            <input 
+                type="text"
+                name="mobile_no"
+                value="+1 "
+                class="text"
+                required
+            />
+            <br>
+            <br>
+
+            Email<subscript>*</subscript><br>
+            <input 
+                type="email" 
+                name=" mail" 
+                placeholder="Email address"
+                class="text"
+                required
+            />
+            <br>
+            <input type="checkbox"> Send necessary Information to my e-mail.
+            <br>
+            <br>
+
+            Address<subscript>*</subscript><br>
+                    <input 
+                        type="text" 
+                        name="address" 
+                        placeholder="House_no."
+                        required
+                        class="address"
+                    />  
+                    <input 
+                        type="text" 
+                        name="address" 
+                        placeholder="Road"
+                        required
+                        class="address"
+                    />
+                    <input 
+                        type="text" 
+                        name="address" 
+                        placeholder="City"
+                        required
+                        class="address"
+                    />
+                    <input 
+                        type="text" 
+                        name="address" 
+                        placeholder="Zip Code"
+                        required
+                        class="address"
+                    />
+                    <br>
+                    <br>
+                    <br>
+             Country: 
+                <Select class="select">
+                    <option></option>
+                    <option>Switzerland</option>
+                    <option>Japan</option>
+                    <option>Canada</option>
+                    <option>United Kingdom</option>
+                    <option>Sweden</option>
+                    <option>Australia</option>
+                </Select>
+            <br>
+            <br>
+            Date: 
+                <input 
+                    type="date" 
+                    name="Date"
+                    required
+                    class="date"
+                />&nbsp; 
+            Quantity:
+                <input type="text" class="Qty" placeholder="Qty" required>
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="checkbox" checked> I agree to the
+            <a href="#" class="link">Terms & Conditions</a> &
+            <a href="#" class="link">Privacy Policy</a>.
+            <br>
+            <br>
+            <br>
+            <a href="index.html">
+                <input type="button" value="Submit" class="button">
+            </a>
+
+            <br>
+            <br>
+            <br>
+        </form>
+    </div>
+</body>
+</html>

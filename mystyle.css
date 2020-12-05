@@ -1,0 +1,234 @@
+.body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(221, 236, 233);
+}
+
+.logo{
+    height: 200%;
+    width: 30%;
+    text-align: right;
+}
+
+.banner{
+    height: 200%;
+    width: 70%;
+    text-align: right;
+    padding: 50px;
+    margin-left: 10%;
+}
+
+.nav_link a{
+    font-size: 100%;
+    text-decoration: none;
+    color: rgb(57, 100, 79);
+}
+
+.nav_link input{
+    height: 30px;
+    width: 20%;
+    border-radius: 8px;
+    border-color: rgb(112, 150, 112);
+}
+
+.nav_link a:hover{
+    text-decoration: underline;
+    color: rgb(120, 80, 158);
+}
+
+#menu{
+    background-color: black;
+    height: 68px;
+    width: 100%;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menubar a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.menubar a:hover{
+    color: rgb(207, 159, 137);
+}
+
+.menubar{
+    width: 14%;
+    text-align: center;
+    font-size: 120%;
+}
+
+.hr{
+    border: none;
+    border-left: 1px solid rgb(255, 255, 255);
+    width: 1px;
+    height: 50px;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+}
+
+.content{
+    width: 75%;
+    text-align: center;
+    padding: 3%;
+}
+
+.content h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(62, 110, 112);
+}
+.content p{
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.suggestion{
+    width: 100%;
+    text-align: center;
+}
+.suggestion h2{
+    color: rgb(121, 51, 46);
+}
+
+.images{
+    padding: 3%;
+    display: flex;
+    text-align: center;
+}
+
+.designs{
+    padding: 1%;
+    width: 25%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.designs a img{
+    width: 250px;
+    height: 200px;
+}
+
+.designs a:hover{
+    opacity: 50%;
+}
+
+.sidebar{
+    width: 25%;
+    text-align: left;
+    padding: 5%;
+}
+
+.sidebar h3{
+    background-color: rgb(169, 199, 194);
+    text-align: center;
+    height: 30px;
+}
+
+.sidebar a{
+    color: #0b515a;
+    text-decoration: none;
+}
+.sidebar a:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+
+
+#footer{
+    width: 100%;
+    height: 80%;
+    background-color: black;
+    color: cornsilk;
+    display: flex;
+    text-align: center;
+}
+
+#footer h2{
+    color: rgb(113, 189, 189);
+}
+
+.foot_nav{
+    width: 33%;
+    padding: 2%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+.foot_nav address a{
+    font-size: 20px;
+    color: #bb5d61;
+}
+
+.ft{
+    width: 100%;
+    height: 100px;
+    padding-top: 5px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0);
+}
+
+.ft hr{
+    border-top: 1px dashed whitesmoke;
+    width: 80%;
+}
+
+.nav_a{
+    padding-top: 10px;
+}
+
+.nav_a a{
+    color: rgb(137, 177, 177);
+    font-size: 100%;
+    text-decoration: none;
+}
+
+.nav_a a:hover{
+    text-decoration: underline;
+    color: whitesmoke;
+
+}

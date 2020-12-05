@@ -1,0 +1,82 @@
+body{
+    font-family: cursive;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.header{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.header h2{
+    color: rgb(152, 141, 179);
+}
+hr{
+    border: 1px dashed;
+    width: 50%;
+}
+
+.types{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.select{
+    width: 20%; 
+    height: 35px;
+    border-radius: 10px;
+}
+
+.form{
+    width: 60%;
+    height: auto;
+    text-align: left;
+    padding-left: 40%;
+}
+
+.address{
+    width: 10%;
+    height: 30px;
+}
+
+.text{
+    width: 44%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.date{
+    width: 19%;
+    height: 30px;
+    border-radius: 10px;
+}
+.Qty{
+    width: 10%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(48, 160, 160);
+}
+
+.link:hover{
+    color: blue;
+}
+
+.button{
+    font-size: 20px;
+    background-color: rgb(148, 97, 163);
+    height: 50px;
+    width: 15%;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.button:hover{
+    background-color: rgb(228, 241, 197);
+    color: rgb(0, 0, 0);
+    opacity: 30%;
+}
